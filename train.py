@@ -61,4 +61,3 @@ def model_selection(list_of_model,hyperparameters_dictionary):
         })
     result_dataframe=pd.DataFrame(result,columns=['model used','highest score','best hyper'])
     return result_dataframe
-hy
